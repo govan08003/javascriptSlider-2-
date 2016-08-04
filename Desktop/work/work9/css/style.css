@@ -1,0 +1,437 @@
+*{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body{
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	
+	
+	
+}
+
+.wrap{
+	margin:300px auto 0 auto;
+	width: 1000px;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.banner{
+background-image: url(../img/banner.png);
+
+height: 418px;	
+
+
+}
+
+.header{
+
+height: 30px;
+line-height: 30px;
+background-color: #f6f6f6;
+
+
+
+
+}
+
+.header li{
+	float:right;
+	display: inline;
+	margin-right: 20px;
+	margin-left: 10px;
+   position: relative;
+
+
+
+
+
+}
+
+.header li img{
+	position: absolute;
+	top:6px;
+	left:-20px;
+	margin-right: 10px;
+	width: 18px;
+	height: 16px;
+
+}
+
+.header li a{
+	display:inline;
+	padding-right: 10px;
+ 	border-right: 1px solid #cccccc;
+}
+
+.header .p1{
+color:#00aaec;	
+
+}
+
+.header .p2{
+color:#4460a0;
+
+
+}
+
+.clearfix{
+clear: both;
+
+}
+
+.topmenu{
+	padding: 10px 0 0 0;
+	background-color: white;
+	height: 50px;
+	line-height: 30px;
+}
+
+.topmenu .logo{
+background-image: url(../img/logo.png);
+width: 170px;
+height: 36px;
+margin-left: 20px;
+float:left;
+}
+
+.topmenu .logo h1{
+
+text-indent: 101%;
+overflow: hidden;
+white-space: nowrap;
+
+	
+}
+
+
+.topmenu  li{
+	float: right;
+display: inline;
+margin:0 15px;
+padding-right: 9px;
+padding-left: 9px;
+padding-bottom: 9px;
+
+
+
+}
+.topmenu  li a{
+	color:#00cc99;
+}
+
+.topmenu  li:hover{
+	border-bottom: 3px solid #00cc99;
+}
+
+.banner .bannerbox{
+	position:relative;
+	top:100px;
+	opacity: 0.2;
+	background-color: black;
+	width: 1002px;
+	height: 160px;
+}
+
+.banner  .text{
+	color:white;
+	font-size: 36px;
+	padding-left: 30px;
+
+	
+}
+
+.content{
+margin-top: 65px;
+
+
+
+
+}
+
+
+
+
+.sbox{
+	float:left;
+	border:1px solid gray;
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-right: 10px;
+	height: 330px;
+	width: 300px;
+	background-color: white;
+	box-shadow: 0 5px 5px gray;
+	padding:20px;
+	position: relative;
+}
+.sbox img{
+	display: block;
+margin: 0 auto;
+
+}
+
+.sbox2{
+	float:left;
+	border:1px solid gray;
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-top: 5px;
+	height: 330px;
+	width: 300px;
+	background-color: white;
+	box-shadow: 0 5px 5px gray;
+	padding:20px;
+	position: relative;
+}
+.sbox2 img{
+display: block;
+margin: 0 auto;
+padding-top: 20px;
+
+}
+
+.content h2{
+display: block;
+position: absolute;
+text-align: center;
+width: 260px;
+top:160px;
+font-size: 18px;
+font-weight: bold;
+
+}
+
+.content li  p{
+display: block;
+margin-top: 10px;
+padding-top: 30px;
+font-size: 15px;
+font-weight: normal;
+text-align: left;
+line-height: 1.5;
+text-align: justify;
+text-justify:inter-ideograph;
+}
+
+
+.content .sbox2 p{
+	margin-top: 45px;
+}
+
+.content .p1{
+	margin-top:30px;
+}
+
+.content .sbox li{
+padding-top: 5px;
+margin-left: 20px;
+font-size: 15px;
+font-weight: normal;
+text-align: left;
+line-height: 1;
+
+}
+
+
+.content .sbox li{
+	list-style-type:disc;
+
+}
+
+
+
+.compare{
+width: 967px;
+margin-top: 60px;
+
+}
+
+.compare h3{
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+	padding-left: 30px;
+}
+
+.compare table {
+	margin-left: 60px;
+	
+
+	text-align:left;
+	margin-top: 20px;
+
+}
+
+.compare th,.compare td {
+	text-align:left;
+	border-bottom:3px solid #dddddd;
+	border-top:3px solid #dddddd;
+	padding: 10px 100px 10px 20px;
+
+}
+
+.compare th{
+	font-weight: bold;
+	background: #f7f7f7;
+}
+
+.compare span{
+color:#00a67d;
+
+}
+
+
+.personal{
+	background: linear-gradient(#00644b,#009872);
+	
+	margin-top: 60px;
+	padding:40px 20px 30px 20px;
+	overflow: hidden;
+}
+
+.personal h3{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 30px;
+	line-height: 1.3;
+	color:white;
+}
+
+.personal .text{
+	width: 460px;
+	height: 243px;
+	border-radius: 5px;
+	float:left;
+
+}
+
+.personal .text2{
+float:left;
+padding-left: 30px;
+}
+
+.personal .text2 input{
+margin-bottom: 10px;
+width: 460px;
+height: 35px;
+border-radius: 5px;
+display: block;
+
+}
+.personal .text2 label{
+display:block;
+}
+
+
+.personal .text2  h4 {
+padding-bottom: 5px;
+color:white;
+}
+
+.personal .sub{
+	color:white;
+	float:right;
+	margin: 10px;
+	background: #00cc99;
+	border:0px;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+
+.personal .sub:hover{
+
+	background: orange;
+	font-size: 22px;
+
+}
+
+
+
+
+.footer {
+margin-top: 26px;
+
+}
+
+
+.footer img{
+float:left;
+width:137px; 
+height:36px;
+margin-bottom: 54px;
+
+}
+
+.footer ul{
+float: right;
+}
+
+.footer li{
+	padding-bottom: 10px;
+}
+
+.footer li span{
+color:#e55995;
+
+
+}
